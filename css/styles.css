@@ -1,0 +1,248 @@
+
+.navbar{
+  background: #1e2326;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+ul {
+    font-family: "Merienda", cursive;
+    font-size: 20px;
+    margin-right: 15%;
+}
+
+.nav-link {
+    position: relative;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+    color: white;
+  }
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background-color: #1cB698;
+    transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+    width: 80%;
+}
+.nav-link:hover {
+  color: white;
+}
+
+
+h5{
+  font-family: "mirienda", cursive;
+}
+
+span{
+  font-family: "Prata", serif;
+}
+
+#diploma{
+    width: 30%;
+}
+
+.card{
+    border-radius: 2%;
+    background-color: white;
+    margin-top: 10%;
+    width: 70%;
+    margin-left: 7%;
+    overflow: hidden;
+    transition: all 400ms ease;
+  }
+
+.card:hover{
+    box-shadow: 5px 5px 20px #18816c;
+    transform: translateY(-3%);  
+  }
+
+#imgCard{
+  border-radius: 2%;
+
+}
+
+#repositorios{
+    color:white;
+    margin-top: 10%;
+    text-align: center;
+    font-family: "Prata", serif;
+  }
+
+#repo{
+  font-family: "Prata", serif;
+  font-size: 25px;
+  margin-top: 7%;
+  margin-left: 10.5%;
+
+}
+
+#linkGit{
+  color:  #1cB698;
+  text-decoration: none;
+}
+
+#linkGit:hover{
+  color: white;
+  text-decoration: none;
+  background-color: #1cB698;
+}
+
+#git{
+  color: #1cB698;;
+}
+
+#iconos {
+  margin-top: 2%;
+  color: white;
+}
+
+#iconosF {
+  position: relative;
+  display: inline-block;
+  padding: 2px;
+}
+
+#iconosF::after {
+  content: '';
+  position: absolute;
+  top: 0 ;
+  left: -5px;
+  right: -5px; 
+  bottom: 0;
+  background-color: #1cB698;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  border-radius: 10%;
+  z-index: -1; 
+}
+
+#iconosF:hover::after {
+  opacity: 1;
+}
+
+#diplomas{
+  margin-top: 15%;
+}
+
+#sobreMi{
+  margin-top: 5%;
+  font-size: 90px;
+}
+
+#repos{
+  background: linear-gradient(to top,rgba(30,35,38,.8), rgba(30,35,38,1)),
+  url(../imagenes/fondo.jpg);
+ 
+}
+
+.inicio{
+  background: linear-gradient(to top,rgba(30,35,38,.8), rgba(30,35,38,1)),
+  url(../imagenes/fondo.jpg);
+  background-size: cover;
+  height: 100vh;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.inicio .contenido-banner{
+  padding: 20px;
+  background-color: #1e2326;
+  width: 350px;
+  margin:auto;
+  text-align: center;
+  border-radius: 40px;
+  margin-top: 89px;
+}
+
+.inicio .contenido-banner img{
+  margin-top: 40px;
+  border: 10px solid #1cB698;
+  display: block;
+  width: 70%;
+  margin: auto;
+  border-radius: 100%;
+}
+
+.inicio .contenido-banner h1{
+  margin-top: 40px;
+  font-size: 42px;
+  font-family: 'righteous';
+}
+
+.inicio .contenido-banner h2{
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.inicio .contenido-banner .redes a{
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  border: 1px solid white;
+  border-radius: 100%;
+  width: 42px;
+  height: 42px;
+  line-height: 42px;
+  margin: 40px 5px;
+  font-size: 20px;
+  transition: .3s;
+}
+
+.inicio .contenido-banner .redes a:hover{
+ background-color: #1cB698;
+}
+
+#logo{
+  font-family:"Merienda", cursive;
+  font-size: 36px;
+  color: #1cB698;
+  text-decoration: none;
+}
+
+#navRes{
+  color: white;
+}
+
+#sobreMi{
+  color: white;
+  font-family: "Merienda", cursive;
+  margin-top: 15%;
+  margin-left: 6%;
+}
+
+#textoSobreMi{  
+  color: white;
+  font-family: "Prata", serif;
+  font-size: 30px;
+  margin-left: 6%;
+}
+
+#texto2SobreMi {
+  color: white;
+  width: 60%;
+  font-family: "Prata", serif;
+  max-width: 700px; 
+  margin-left: 6%;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+#repos{
+  background: linear-gradient(to top,rgba(30,35,38,.8), rgba(30,35,38,1)),
+  url(../imagenes/fondo.jpg);
+  background-size: cover;
+  height: 100vh;
+}
